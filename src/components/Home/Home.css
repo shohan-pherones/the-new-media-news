@@ -1,0 +1,19 @@
+.home h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.features-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 30px;
+  justify-items: center;
+}
+
+@media only screen and (max-width: 1920px) {
+  .features-wrapper {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
