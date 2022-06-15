@@ -1,0 +1,102 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  background-color: white;
+  box-shadow: 1px 1px 1px #e2e0df;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.logo h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #00aed6;
+  cursor: pointer;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.15s linear;
+}
+
+.menu ul li:hover {
+  color: #00aed6;
+}
+
+.toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .logo {
+    position: relative;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    position: absolute;
+    background-color: #00aed6;
+    padding: 50px;
+    top: 9%;
+    z-index: -1;
+    right: 0%;
+    display: none;
+  }
+
+  .menu ul li {
+    padding: 10px 0;
+    color: white;
+  }
+
+  .menu ul li:hover {
+    color: black;
+  }
+
+  .toggle {
+    display: inline-block;
+    font-size: 2rem;
+    cursor: pointer;
+    color: black;
+    transition: all 0.15s linear;
+  }
+
+  .toggle:hover {
+    color: #00aed6;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .logo h2 {
+    font-size: 1.5rem;
+  }
+
+  .toggle {
+    font-size: 1.5rem;
+  }
+
+  .menu ul li {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .logo h2 {
+    font-size: 1.2rem;
+  }
+
+  .toggle {
+    font-size: 1.2rem;
+  }
+
+  .menu ul li {
+    font-size: 1rem;
+  }
+}
