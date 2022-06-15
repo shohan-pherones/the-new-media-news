@@ -35,7 +35,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   .logo {
     position: relative;
   }
@@ -45,10 +45,9 @@
     position: absolute;
     background-color: #00aed6;
     padding: 50px;
-    top: 9%;
-    z-index: -1;
+    top: 5rem;
+    z-index: 99;
     right: 0%;
-    display: none;
   }
 
   .menu ul li {
