@@ -40,15 +40,18 @@
 .feature-details h2 {
   font-size: 1.5rem;
   margin-bottom: 5px;
+  text-transform: uppercase;
 }
 
 .feature-details .author {
   color: #00aed6;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .feature-details .date {
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .feature-details .body {
